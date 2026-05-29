@@ -1,0 +1,18 @@
+{
+  "name": "spread-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend for Spread — share a sentence, let it spread.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "dev": "SPREAD_DEV_AUTH=1 node --env-file-if-exists=.env src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jose": "^6.2.3"
+  }
+}

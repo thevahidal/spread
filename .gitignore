@@ -1,0 +1,15 @@
+node_modules/
+# SQLite data
+server/*.db
+server/*.db-wal
+server/*.db-shm
+# Expo / web build output
+app/dist/
+app/.expo/
+app/web-build/
+# secrets / local env (keep .env.example)
+.env
+*/.env
+# misc
+.DS_Store
+*.log
